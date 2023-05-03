@@ -292,7 +292,7 @@ main .row{
     gap: 30px;
 }
 
-main .col{
+main .subscription .col{
     display: flex;
     flex-direction: column;
     flex-basis: calc(100% /3 - 20px);
@@ -482,6 +482,8 @@ main .partner h4{
 main .partner p{
     font-size: 20px;
     padding: 20px 0;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 main .button-white{
     background-color: var(--button-white);
@@ -492,13 +494,33 @@ main .button-white{
     font-size: 18px;
 }
 
+/* Section Subscription Vantages*/
 
+main .fourth-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.subscription-vantages .col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% /3 - 40px);
+    width: 400px;
+}
 
-
-
-
-
+.fourth-row p{
+    font-size: 20px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.fourth-row .big-row{
+    padding: 20px 0;
+    line-height: 30px;
+}
 
 /*Footer*/
 
