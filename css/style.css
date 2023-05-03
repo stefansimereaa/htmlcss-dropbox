@@ -504,6 +504,12 @@ main .fourth-row{
     gap: 20px;
 }
 
+.subscription-vantages .title h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
 .subscription-vantages .col{
     display: flex;
     flex-direction: column;
