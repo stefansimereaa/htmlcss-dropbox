@@ -281,21 +281,23 @@ main .radio{
 
 
 
+/*Section subscription*/
+
 /*Main col*/
 main .row{
     display: flex;
     flex-direction: row;
-    gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 main .col{
     display: flex;
     flex-direction: column;
-    flex-basis: calc(100% / 3 -40px);
-    width: 450px;
+    flex-basis: calc(100% /3 - 20px);
+    width: 400px;
     border: solid 2px var(--col);
-    
 }
 
 /*Small row*/
@@ -408,26 +410,95 @@ main .big-row .container{
 main .big-row .content{
     display: flex;
     flex-direction: column;
-    width: 77%;
+    width: 85%;
 }
+
+/*Big col*/
+
+main .second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+main .second-row .big-col{
+    display: flex;
+    width: 1400px;
+    flex-direction: column;
+    border: solid 2px var(--col);
+}
+
+main .enterprise-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+main .enterprise-team .button-blue{
+    margin-top: 0;
+}
+
+main .big-row p{
+    padding: 30px 0;
+}
+
+/*Section partner*/
+main .partner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main .partner .third-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: calc(100% / 2);
+}
+
+/*Med col*/
+main .partner .med-col{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Small col*/
+main .partner .small-col{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    width: 400px;
+}
+main .partner h4{
+    font-size: 30px;
+    padding: 20px 0;
+}
+main .partner p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+main .button-white{
+    background-color: var(--button-white);
+    color: black;
+    padding: 20px 0px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
 
 /*Footer*/
 
-
-
-/*
-.row{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-.col{
-    display: flex;
-    flex-direction: column;
-    flex-basis: calc(100% / 7 - 60px);
-}
-.card{
-    position: relative;
-    margin-bottom: 5px;
-}
