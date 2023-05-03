@@ -161,7 +161,7 @@ ul:hover .line{
     align-items: center;
 }
 .jumbotron .container{
-    max-width: 1600px;
+    max-width: 1400px;
     margin-top: 50px;
 }
 
@@ -229,7 +229,7 @@ ul:hover .line{
 /* Jumbotron Med column */
 
 .jumbotron .med-col{
-    width: 1100px;
+    width: 900px;
     position: relative;
 }
 .jumbotron img{
@@ -240,7 +240,7 @@ ul:hover .line{
 
 /*Main*/
 main .container{
-    max-width: 1600px;
+    max-width: 1400px;
     margin-top: 150px;
 }
 
@@ -293,7 +293,7 @@ main .col{
     display: flex;
     flex-direction: column;
     flex-basis: calc(100% / 3 -40px);
-    width: 500px;
+    width: 450px;
     border: solid 2px var(--col);
     
 }
