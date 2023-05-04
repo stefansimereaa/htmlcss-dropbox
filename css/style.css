@@ -557,7 +557,7 @@ main .fourth-row{
 }
 .subscription-vantages .big-col .big-row h3{
     font-size: 50px;
-    padding: 20px 0px;
+    padding: 100px 0px;
 }
 
 
@@ -705,7 +705,6 @@ main .fourth-row{
 }
 
 /*Footer*/
-
 
 footer{
     background-color: var(--footer);
