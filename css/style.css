@@ -705,3 +705,63 @@ main .fourth-row{
 }
 
 /*Footer*/
+
+
+footer{
+    background-color: var(--footer);
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    color: white;
+}
+
+.footer-title{
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+    padding: 10px 60px;
+    font-size: 20px;
+}
+
+.footer-content .line-language{
+    background-color: var(--col);
+    width: 150px;
+    height: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-list{
+    margin-top: 50px;
+}
+
+.footer-list-language{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer-content i{
+    padding: 0 10px;
+}
+
+.footer-language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+}
