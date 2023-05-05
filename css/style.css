@@ -491,6 +491,7 @@ main .partner .small-col{
     padding: 40px 0;
     width: 400px;
 }
+
 main .partner h4{
     font-size: 30px;
     padding: 20px 0;
@@ -624,7 +625,7 @@ main .fourth-row{
 /*Sponsors img*/
 
 .img-1{
-    background-color: var(--Img1);
+    background-color: var(--Img1);    
 }
 
 .img-2{
